@@ -60,3 +60,27 @@ currentQuestion.choices.array.forEach(function(choice, i){
     choicesEl.appendChild(choiceNode);
   });
 } 
+
+function questionClick() {
+    // check if user guessed wrong
+    if (this.value !== questions[currentQuestionIndex].answer) {
+      // penalize time
+      time -= 15;
+  
+      if (time < 0) {
+        time = 0;
+      }
+
+      // display new time on page
+    timerEl.textContent = time;
+
+    // play "wrong" sound effect
+    sfxWrong.play();
+
+    feedbackEl.textContent = "Wrong!";
+} else {
+    // play "right" sound effect
+    sfxRight.play();
+
+    feedbackEl.textContent = "Correct!";
+  }
