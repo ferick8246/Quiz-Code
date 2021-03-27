@@ -16,3 +16,19 @@ var feedbackEl = document.getElementById("feedback");
 var sfxRight = new Audio ("assets/sfx/correct.wav");
 var sfxWrong = new Audio ("assets/sfx/correct.wav");
 
+function startQuiz() {
+    // start screen hide 
+    var startScreenE1 = document.getElementById("start-screen")
+    startScreenE1.setAttribute("class", "hide");
+    
+    // un*hide questions section 
+    questionsEl.removeAttribute("class")
+
+    // start timer
+  timerId = setInterval(clockTick, 1000);
+
+  // show starting time
+  timerEl.textContent = time;
+
+  getQuestion();
+}
