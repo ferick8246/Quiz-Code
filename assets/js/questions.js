@@ -1,36 +1,29 @@
 // list of all questions, choices, and answers
 var questions = [
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
+      title: "What super villain once broke Batman's back, leaving him crippled and wheelchair-bound?",
+      choices: ["Joker", "Bane", "Jeff", "Lex"],
+      answer: "Bane"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "What were the names of Bruce Wayne's parents?",
+      choices: ["Thomas and Martha", "John and Mary", "Mike and Wendy", "James and Crystal"],
+      answer: "Thomas and Martha"
     },
     {
-      title: "Arrays in JavaScript can be used to store ____.",
-      choices: [
-        "numbers and strings",
-        "other arrays",
-        "booleans",
-        "all of the above"
-      ],
-      answer: "all of the above"
+      title: "Who is credited with creating Batman?",
+      choices: ["Jack Kirby", "Stan Lee", "Josh Radner ", "Bob Kane"]
+      answer: "Bob Kane"
     },
     {
-      title:
-        "String values must be enclosed within ____ when being assigned to variables.",
-      choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+      title:"What former District Attorney became the villain known as Two-Face?",
+      choices: ["Harvey Dent", "Floyd Lawton", "Jason Blood", "Edward Nygma"],
+      answer: "Harvey Dent"
     },
     {
-      title:
-        "A very useful tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
-      answer: "console.log"
+      title:"Who first replaced Batman when he was paralyzed by Bane?",
+      choices: ["Nightwing", "Robin", "Azreal", "Red Hood"],
+      answer: "Azreal"
     }
   ];
   
