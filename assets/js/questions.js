@@ -12,9 +12,9 @@ var questions = [
     },
     {
       title: "Who is credited with creating Batman?",
-      choices: ["Jack Kirby", "Stan Lee", "Josh Radner ", "Bob Kane"]
+      choices: ["Jack Kirby", "Stan Lee", "Josh Radner ", "Bob Kane"],
       answer: "Bob Kane"
-    },
+    }, 
     {
       title:"What former District Attorney became the villain known as Two-Face?",
       choices: ["Harvey Dent", "Floyd Lawton", "Jason Blood", "Edward Nygma"],
