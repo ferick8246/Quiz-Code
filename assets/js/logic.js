@@ -45,7 +45,7 @@ titleEl.textContent = currentQuestion.title;
 choicesEl.innerHTML="";
 
 // loop over choices 
-currentQuestion.choices.array.forEach(function(choice, i){
+currentQuestion.choices.forEach(function(choice, i){
     // create new button for each choice
     var choiceNode = document.createElement("button");
     choiceNode.setAttribute("class", "choice");
